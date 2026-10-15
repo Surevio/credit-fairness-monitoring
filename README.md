@@ -13,7 +13,7 @@
 
 ![Глобальная важность признаков (SHAP)](reports/baseline_shap_global.png)
 
-![Метрики справедливости в сценарии деградации](<reports/Сценарий_Б_(деградация)_fairness.png>)
+![Метрики справедливости в сценарии деградации](reports/scenario_b_degradation_fairness.png)
 
 Полный отчёт мониторинга: `reports/monitoring_report.html` (скачайте и откройте в браузере).
 
