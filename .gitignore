@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Артефакты модели — пересоздаются скриптами train_model.py и compute_baseline.py
+data/*.pkl
+
+# ОС
+.DS_Store
+Thumbs.db

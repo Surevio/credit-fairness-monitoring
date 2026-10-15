@@ -1,0 +1,49 @@
+{
+  "global_shap": {
+    "age": 0.07441440298411903,
+    "gender": 0.5412140324751227,
+    "income": 0.3086894020697044,
+    "credit_score": 0.42927042734404713,
+    "loan_amount": 0.20294422655123195,
+    "employment_years": 0.25316728245828124,
+    "debt_to_income": 0.36852670237710966,
+    "num_prev_loans": 0.050814479645728744,
+    "num_defaults": 0.5203835091067881
+  },
+  "shap_feature_rank": [
+    "gender",
+    "num_defaults",
+    "credit_score",
+    "debt_to_income",
+    "income",
+    "employment_years",
+    "loan_amount",
+    "age",
+    "num_prev_loans"
+  ],
+  "mean_shap_women": {
+    "age": 0.08276580009603343,
+    "gender": 0.543607202333257,
+    "income": 0.326568135415766,
+    "credit_score": 0.4289126216469201,
+    "loan_amount": 0.18889323258872134,
+    "employment_years": 0.2414753135258954,
+    "debt_to_income": 0.4034629081052701,
+    "num_prev_loans": 0.05509569962212725,
+    "num_defaults": 0.5232586269140692
+  },
+  "mean_shap_men": {
+    "age": 0.06620788760648816,
+    "gender": 0.5388623798140297,
+    "income": 0.2911208326230805,
+    "credit_score": 0.429622025755224,
+    "loan_amount": 0.21675146101501255,
+    "employment_years": 0.2646564167375647,
+    "debt_to_income": 0.33419657704572026,
+    "num_prev_loans": 0.0466075311435182,
+    "num_defaults": 0.5175582694275138
+  },
+  "demographic_parity_difference": 0.2155868183657812,
+  "equalized_odds_difference": 0.167964404894327,
+  "n_train_samples": 1600
+}
